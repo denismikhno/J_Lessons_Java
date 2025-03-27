@@ -18,6 +18,7 @@ public class Book {
         this.bookName = bookName;
     }
 
+    // геттер будет доставать нам закрытое поле - имя книги
     public String getBookName() {
         return bookName;
     }
